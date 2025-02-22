@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Course Details</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="#">Profile</a>
+        </nav>
+    </header>
+    <section class="video-container">
+        <h2>HTML & CSS Basics</h2>
+        <video controls>
+            <source src="assets/sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <section class="progress">
+        <h3>Progress Tracker</h3>
+        <progress id="progress-bar" value="30" max="100"></progress>
+        <button onclick="updateProgress()">Mark as Completed</button>
+    </section>
+</body>
+</html>

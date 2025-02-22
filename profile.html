@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>User Profile</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <section class="profile-container">
+         <class="profile-card">
+            <img src="mypic.jpg" alt="Profile Picture" class="profile-pic"></image>
+            <h2 id="user-name">Rashmi</h2>
+            <p id="user-email">rashmichaudhary1801@gmail.com</p>
+            <button onclick="openEditModal()">Edit Profile</button>
+        </div>
+
+        <div class="progress-section"></div>
+            <h2>Course Progress</h2>
+            <p>HTML & CSS Basics</p>
+            <progress id="progress-html" value="70" max="100"></progress>
+            
+            <p>JavaScript Essentials</p>
+            <progress id="progress-js" value="40" max="100"></progress>
+        </div>
+    </section>
+
+    <!-- Edit Profile Modal -->
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeEditModal()">&times;</span>
+            <h2>Edit Profile</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="edit-name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="edit-email" placeholder="Enter your email">
+            
+            <button onclick="saveProfile()">Save</button>
+        </div>
+    </div>
+
+    <script src="script2.js"></script>
+</body>
+</html>
