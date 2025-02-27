@@ -49,9 +49,17 @@ JavaScript allows users to update their name and email.
 ✅ Progress Tracking - Users can update their course completion status.
 ✅ Profile Editing - Users can change their name and email.
 ✅ Responsive Design - Mobile-friendly layout with well-structured sections.
+
+
+
+
 ✅ Course Navigation - Seamless transition between course listings and details.
 ✅ Animated Hover Effects - Smooth animations on course cards.
 
 #OUTPUT :
+
+![Image](https://github.com/user-attachments/assets/40c1f044-5b4a-4b97-b61f-8d95e7f71fd7)
+![Image](https://github.com/user-attachments/assets/ad3616c9-bb99-4399-a019-b4e3468e7bc8)
+![Image](https://github.com/user-attachments/assets/1e6a549f-555d-4ccb-95b9-5508c28438e4)
 
 
